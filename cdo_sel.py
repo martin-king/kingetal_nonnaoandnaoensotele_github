@@ -6,28 +6,34 @@ trialtot=range(1,2)
 trialyrs=range(1870,2015)
 
 #DJF EN
-#mixed el nino exclude cp and extreme DJF 12 events (hadisst_elninomixedmodoki_djf_1869_2016.tx). 
-#elninoyears=np.array([1897,1900,1912,1914,1915,1919,1926,1931,1942,1966,1987,2007])
-#cp el nino DJF 11 events. elninoyears=np.array([1903,1941,1958,1969,1988,1991,1992,1995,2003,2005,2010])
+#mixed el nino exclude cp and extreme DJF 12 events (hadisst_elninomixedmodoki_djf_1869_2016.txt) --
+#elninoyears=np.array([1897,1900,1912,1914,1915,1919,1926,1931,1942,1966,1987,2007]) 
+#cp el nino DJF 11 events (hadisst_elninocpmodoki_djf_1869_2016.txt) -- 
+#elninoyears=np.array([1903,1941,1958,1969,1988,1991,1992,1995,2003,2005,2010])
 #mixed plus cp el nino DJF 23 events. 
 elninoyears=np.array([1897,1900,1912,1914,1915,1919,1926,1931,1942,1966,1987,2007,1903,1941,1958,1969,1988,1991,1992,1995,2003,2005,2010])
-#extreme el nino DJF 5 events. elninoyears=np.array([1878,1889,1973,1983,1998])
+#extreme el nino DJF 5 events (see hadisst_elninomixedmodoki_djf_1869_2016.txt) --
+#elninoyears=np.array([1878,1889,1973,1983,1998])
 #OND EN
-#mixed el nino exclude cp and extreme OND 20 events. elninoyears=np.array([1888,1896,1899,1902,1904,1905,1911,1913,1914,1918,1925,1930,1941,1951,1957,1965,1969,1976,1987,2006])
-#cp el nino OND 10 events. elninoyears=np.array([1940,1977,1986,1990,1991,1994,2002,2004,2009,2014])
+#mixed el nino exclude cp and extreme OND 20 events (hadisst_elninomixedmodoki_ond_1869_2016.txt) --
+#elninoyears=np.array([1888,1896,1899,1902,1904,1905,1911,1913,1914,1918,1925,1930,1941,1951,1957,1965,1969,1976,1987,2006])
+#cp el nino OND 10 events (hadisst_elninocpmodoki_ond_1869_2016.txt) --
+#elninoyears=np.array([1940,1977,1986,1990,1991,1994,2002,2004,2009,2014])
 #mixed plus cp el nino OND 30 events. 
 #elninoyears=np.array([1888,1896,1899,1902,1904,1905,1911,1913,1914,1918,1925,1930,1941,1951,1957,1965,1969,1976,1987,2006,1940,1977,1986,1990,1991,1994,2002,2004,2009,2014])
 
 #DJF LN 
-#mixed la nina exclude cp DJF 18 events. 
+#mixed la nina exclude cp DJF 18 events (hadisst_laninamixedmodoki_djf_1869_2016.txt) -- 
 #laninayears=np.array([1872,1873,1874,1876,1883,1887,1893,1910,1916,1917,1918,1935,1950,1955,1956,1968,1971,1985])
-#cp la nina DJF 15 events. 
+#cp la nina DJF 15 events (hadisst_laninacpmodoki_djf_1869_2016.txt) --
 #laninayears=np.array([1870,1890,1894,1899,1934,1943,1951,1974,1976,1989,1999,2000,2008,2011,2012])
 #mixed plus cp la nina DJF 33 events.
 laninayears=np.array([1872,1873,1874,1876,1883,1887,1893,1910,1916,1917,1918,1935,1950,1955,1956,1968,1971,1985,1870,1890,1894,1899,1934,1943,1951,1974,1976,1989,1999,2000,2008,2011,2012])
 #OND LN
-#mixed la nina exclude cp OND 24 events. laninayears=np.array([1870,1872,1873,1875,1892,1903,1908,1909,1916,1922,1924,1942,1949,1950,1954,1955,1956,1967,1970,1971,1999,2005,2007])
-#cp la nina OND 16 events. laninayears=np.array([1874,1879,1886,1889,1890,1893,1910,1933,1964,1973,1974,1975,1984,1988,1998,2010])
+#mixed la nina exclude cp OND 24 events (hadisst_laninamixedmodoki_ond_1869_2016.txt) -- 
+#laninayears=np.array([1870,1872,1873,1875,1892,1903,1908,1909,1916,1922,1924,1942,1949,1950,1954,1955,1956,1967,1970,1971,1999,2005,2007])
+#cp la nina OND 16 events (hadisst_laninamixedmodoki_ond_1869_2016.txt) -- 
+#laninayears=np.array([1874,1879,1886,1889,1890,1893,1910,1933,1964,1973,1974,1975,1984,1988,1998,2010])
 #mixed plus cp la nina OND 40 events. 
 #laninayears=np.array([1870,1872,1873,1875,1892,1903,1908,1909,1916,1922,1924,1942,1949,1950,1954,1955,1956,1967,1970,1971,1999,2005,2007,1874,1879,1886,1889,1890,1893,1910,1933,1964,1973,1974,1975,1984,1988,1998,2010])
 
